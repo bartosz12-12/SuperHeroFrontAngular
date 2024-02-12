@@ -1,0 +1,45 @@
+.basic-info{
+    background-color: rgba(255, 255, 255, 0.3);     
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    padding-left: 30px;
+    font-size: large;
+    display: flex;
+    margin-bottom: 10vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.description{
+    background-color: rgba(255, 255, 255, 0.3);     
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    padding-left: 30px;
+    font-size: large;
+    display: flex;
+}
+
+.detail-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container{
+    border: solid white 10px;
+}
+
+.image-container img
+{
+    max-height: 50vh;
+}
+

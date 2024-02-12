@@ -1,0 +1,11 @@
+<section class="hero">
+    <div class="information">
+      <div class="hero-name" [routerLink]="['/details',hero.id]">{{hero.name}}</div>
+      <div class="informations">
+        {{hero.firstName}} {{hero.lastName}}, {{hero.place}}
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="{{hero.image}}" alt="">
+    </div>
+</section>

@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3); 
+  border-radius: 10px;
+  backdrop-filter: blur(5px); 
+  -webkit-backdrop-filter: blur(5px);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.information {
+  margin-left: 20px;
+  min-width: 40vw;  
+  cursor: pointer; 
+
+}
+
+.image-container{
+  padding: 10px;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  width: 50vw;
+}
+.hero-name {
+  font-size: 40px;
+  cursor: pointer;
+  color: azure;
+  transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+.information:hover {
+  cursor: pointer;
+}
+.information:hover .hero-name {
+  transform: translateX(20%); 
+  font-size: 60px;
+}
+
+.information:hover .informations {
+  display: none; 
+}

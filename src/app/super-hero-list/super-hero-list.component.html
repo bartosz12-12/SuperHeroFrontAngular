@@ -1,0 +1,4 @@
+<p *ngIf="loading" class="loading" >loading...</p>
+<div class="list" *ngIf="!loading">
+  <app-super-hero *ngFor="let hero of superHero" [hero]="hero"></app-super-hero>
+</div>
